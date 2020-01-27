@@ -1,4 +1,4 @@
-## Welcome to my project hub
+## Welcome to My Project Hub
 
 Brenna Botzheim is an associate End of Voyage Analyst at StormGeo. Brenna holds a Bachelor's degree from San Francisco State University where she studied sociology and mathematics. In her spare time, Brenna continues to develop her skills in statistical data science as she believes mastery is an ongoing process.
 
