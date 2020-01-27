@@ -5,13 +5,13 @@ Brenna Botzheim is an associate End of Voyage Analyst at StormGeo. Brenna holds 
 ### Projects
 
 [**WEB SCRAPING WITHOUT A PADDLE**](https://nycdatascience.com/blog/student-works/web-scraping-without-a-paddle/)— NYC Data Science Academy, *DECEMBER 2019*
-A web scraping project that collected customer reviews and product information on kayaks to analyze how different technical specifications appeal to consumers.
+> A web scraping project that collected customer reviews and product information on kayaks to analyze how different technical specifications appeal to consumers.
 
 [**SF: TRENDS IN CRIMINAL ACTIVITY**](https://nycdatascience.com/blog/student-works/san-francisco-trends-in-criminal-activity/) — NYC Data Science Academy, *OCTOBER 2019*
-An exploratory data visualization project designed to find trends in the reported criminal activity in San Francisco. The final product of the project was the development of an R-Shiny app for use by end-users for their specific needs.
+> An exploratory data visualization project designed to find trends in the reported criminal activity in San Francisco. The final product of the project was the development of an R-Shiny app for use by end-users for their specific needs.
 
 **ENVIRONMENTAL CONCERN SENIOR PROJECT** — SF State University, *APRIL 2017*
-A fully developed senior research project including: hypothesis construction, reviewing relevant literature, survey design, data collection and data analysis. The research topic was on environmental concern between different racial groups and had statistically significant findings. 
+> A fully developed senior research project including: hypothesis construction, reviewing relevant literature, survey design, data collection and data analysis. The research topic was on environmental concern between different racial groups and had statistically significant findings. 
 
 
 #### Contact
