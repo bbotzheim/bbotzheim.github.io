@@ -10,7 +10,7 @@ Brenna Botzheim is an associate End of Voyage Analyst at StormGeo. Brenna holds 
 [**SF: TRENDS IN CRIMINAL ACTIVITY**](https://nycdatascience.com/blog/student-works/san-francisco-trends-in-criminal-activity/) — NYC Data Science Academy, *OCTOBER 2019*
 > An exploratory data visualization project designed to find trends in the reported criminal activity in San Francisco. The final product of the project was the development of an R-Shiny app for use by end-users for their specific needs.
 
-[**ENVIRONMENTAL CONCERN SENIOR PROJECT**](http://bbotzheim/bbotzheim.github.io/pdfs/senior_research_project_2017.pdf) — SF State University, *APRIL 2017*
+[**ENVIRONMENTAL CONCERN SENIOR PROJECT**](http://bbotzheim.github.io/pdfs/senior_research_project_2017.pdf) — SF State University, *APRIL 2017*
 > A fully developed senior research project including: hypothesis construction, reviewing relevant literature, survey design, data collection and data analysis. The research topic was on environmental concern between different racial groups and had statistically significant findings. 
 > <a href="pdfs/senior_research_project_2017.pdf"></a>
 
