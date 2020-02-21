@@ -35,18 +35,18 @@
         aria-label="Toggle navigation"> </button>
       </div>
       <div class="collapse navbar-collapse justify-content-end" id=
-      "navigation" data-nav-image="img/blurred-image-1.jpg">
+      "navigation" data-nav-image="/img/blurred-image-1.jpg">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="/projects/" data-target=
-            "/projects/">
+            "projects/">
               <i class="now-ui-icons business_briefcase-24"></i>
               <span>Projects</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/cv/" data-target=
-            "/cv/">
+            "cv/">
               <i class="now-ui-icons users_single-02"></i>
               <span>CV</span>
             </a>
@@ -58,22 +58,13 @@
   <div class="wrapper">
     <div class="page-header page-header-small" filter-color=
     "black">
-      <div class="page-header-image" data-parallax="true" style=
-      "background-image: url('/img/florida_background.jpg');">
-      </div>
+    <div class="page-header-image" data-parallax="true" style=
+    "background-image: url('/img/florida_background.jpg');">
+    </div>
       <div class="container">
         <div class="content-center">
-          <h1 class="title"></h1>
-          <div class="text-center">
-            <div class="container">
-              <div class="content-center">
-                <div class="photo-container"><img src=
-                "/img/bbotz_headshot2.jpg" alt="Me!"></div>
-                <h3 class="title">Brenna Botzheim</h3>
-                <p class="category">Data Scientist</p>
-              </div>
-            </div>
-          </div>
+          <h1 class="title">Projects</h1>
+          <div class="text-center"></div>
         </div>
       </div>
     </div>
@@ -81,33 +72,60 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-left">
-            <div class="button-container">
-              <a href="https://www.linkedin.com/in/bbotzheim/" class=
-              "btn btn-default btn-round btn-lg btn-icon" rel=
-              "tooltip" title="Follow me on Linkedin">
-              <i class='fa fa-linkedin'></i>
-              </a>
-              <a href="https://github.com/bbotzheim" class=
-              "btn btn-default btn-round btn-lg btn-icon" rel=
-              "tooltip" title="Check out my work on Github">
-              <i class='fa fa-github'></i>
-              </a>
-            </div>
-            <h3 class="title">About me</h3>
+            <a class="title" target="_blank"
+            href="https://nycdatascience.com/blog/student-works/web-scraping-without-a-paddle">
+              <h2 class="title">Web Scraping Without a Paddle</h2>
+            </a>
+            <h5 class="subtitle"> NYC Data Science Academy, December 2019 </h5>
             <p class="description">
-              Hello! I am a growing data scientist, currently in the
-              NYC Data Science Academy program.
-              By day, I am an associate EOV Analyst with StormGeo,
-              Shipping division.
-              By night, I apply myself to my school work and develop
-              interesting/exciting machine learning projects.
-              I pursue further education because I want to challenge myself for
-              continual growth and, upon completion with the NYCDSA, I will be
-              pursuing a master’s degree in Data Science.
-              <br/>
-              <br/>
-              This website is my project hub. Keep an eye out for updates!
+              A web scraping project that collected customer reviews and product
+              information on kayaks to analyze how different technical
+              specifications appeal to consumers.
             </p>
+            <p class="description">
+              <a class="title" href="https://github.com/bbotzheim/kayak_scraper"
+              target="_blank"
+              title="Kayak Analysis Github Repository">
+                Check out the code on Github
+              </a>
+            </p>
+
+            <a class="title" target="_blank"
+            href="https://nycdatascience.com/blog/student-works/san-francisco-trends-in-criminal-activity/">
+              <h2 class="title">SF: Trends in Criminal Activity</h2>
+            </a>
+            <h5 class="subtitle">NYC Data Science Academy, October 2019</h5>
+            <p class="description">
+              An exploratory data visualization project designed to find trends
+              in the reported criminal activity in San Francisco.
+              The final product of the project was the development of an R-Shiny
+              app for use by end-users for their specific needs.
+            </p>
+            <p class="description">
+              <a class="title" href="https://github.com/bbotzheim/SF_incident_reports"
+              target="_blank"
+              title="SF Crime Analysis Github Repository">
+                Check out the code on Github
+              </a>
+            </p>
+
+            <h2 class="title">Environmental Concern Senior Project</h2>
+            <h5 class="subtitle">San Francisco State University, April 2017</h5>
+            <p class="description">
+              A fully developed senior research project including: hypothesis
+              construction, reviewing relevant literature, survey design, data
+              collection and data analysis.
+              The research topic was on environmental concern between different
+              racial groups and had statistically significant findings.
+            </p>
+            <p class="description">
+              <a class="title" href="/pdfs/senior_research_project_2017.pdf"
+              target="_blank"
+              title="SF Crime Analysis Github Repository">
+                Check out my write-up of the project
+              </a>
+            </p>
+
           </div>
         </div>
       </div>
@@ -149,10 +167,12 @@
   </script>
   <script type="text/javascript">
     $(document).ready(function() {
+
         nowuiKit.initSliders();
     });
 
     function scrollToDownload() {
+
         if ($('.section-download').length != 0) {
             $("html, body").animate({
                 scrollTop: $('.section-download').offset().top
@@ -161,16 +181,16 @@
     }
   </script>
   <script src=
-  "cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js">
+  "//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js">
   </script>
   <script>
   hljs.initHighlightingOnLoad();
   </script>
   <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
   </script>
   <script async src=
-  "cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+  "//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
   </script>
 </body>
 </html>
